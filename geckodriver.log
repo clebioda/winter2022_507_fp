@@ -32,3 +32,44 @@ Read port: 62691
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1651119895198	geckodriver	INFO	Listening on 127.0.0.1:55017
+1651119898260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55018" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Chris\\AppData\\Local\\Temp\\rust_mozprofileDy4B5K"
+*** You are running in headless mode.
+1651119898478	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Chris\\AppData\\Local\\Temp\\rust_mozprofileDy4B5K\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55018/devtools/browser/d0dfb494-657e-4d86-8f79-819ca8781cf5
+1651119899212	Marionette	INFO	Listening on port 55040
+Read port: 55040
+1651119899260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651119911497	Marionette	INFO	Stopped listening on port 55040
+1651119918350	geckodriver	INFO	Listening on 127.0.0.1:55113
+1651119921428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55114" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Chris\\AppData\\Local\\Temp\\rust_mozprofileHb7HIE"
+*** You are running in headless mode.
+1651119921643	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Chris\\AppData\\Local\\Temp\\rust_mozprofileHb7HIE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55114/devtools/browser/1c93ea35-28f3-415b-819a-82b258c5c4b4
+1651119922394	Marionette	INFO	Listening on port 55135
+Read port: 55135
+1651119922426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1651119926408	Marionette	INFO	Stopped listening on port 55135
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Chris\AppData\Local\Temp\rust_mozprofileHb7HIE\protections.sqlite
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+

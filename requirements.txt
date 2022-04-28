@@ -1,0 +1,5 @@
+beautifulsoup4==4.11.1
+cssutils==2.4.0
+Flask==2.1.1
+requests==2.27.1
+selenium==4.1.3

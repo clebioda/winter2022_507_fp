@@ -65,7 +65,7 @@ def insertItem(tree, item:GoodwillItem):
 
 def returnMergedItemList(tree, category:str, items:list=None, inCorrectTree=False):
     '''Goes through the entire tree structure to count the number of items in the
-        given string category. Always go throughs the whole tree
+        given string category and returns the items. Always go throughs the whole tree.
     ----------
     Parameters
     tree: tuples

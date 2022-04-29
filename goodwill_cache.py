@@ -68,7 +68,7 @@ def make_request_with_cache(url, cache, cache_file_name, cache_expiration=10080)
     cache_file_name: string
         The cache file name we are saving to
     cache_expiration: int
-        An int that represents how many hours an item should persist in the cache
+        An int that represents how many minutes an item should persist in the cache
         defaults to one week
     Returns
     -------

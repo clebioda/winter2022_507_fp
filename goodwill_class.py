@@ -22,7 +22,7 @@ class GoodwillItem:
     category: string
         the category of the item used to place in tree
     '''
-    def __init__(self, item_title=None, item_path=None, item_price=0, ebay_avg_price=0, item_bids=0, item_time_left=0, item_image=None):
+    def __init__(self, item_title=None, item_path=None, item_price=0, item_bids=0, item_time_left=0, item_image=None):
         self.title = item_title
         self.path = item_path
         self.price = item_price

@@ -91,7 +91,7 @@ def getAllGoodWillItems(driver):
                 item_bids = "Buy It Now Only"
                 item_time_left = "No Time Limit"
             item_image = item.find("a").find("img", class_="feat-item_img")["src"]
-            goodwill_item = GoodwillItem(item_title=item_name, item_path=item_path, item_price=item_price, ebay_avg_price=0, item_bids=item_bids, item_time_left=item_time_left, item_image=item_image)
+            goodwill_item = GoodwillItem(item_title=item_name, item_path=item_path, item_price=item_price, item_bids=item_bids, item_time_left=item_time_left, item_image=item_image)
             insertItem(tree, goodwill_item)
         page_number += 1
 

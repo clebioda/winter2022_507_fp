@@ -52,6 +52,8 @@ There are two types of nodes in this tree:
 To create and populate the tree, you can look at the follow code:
 - Declaration of tree: line 210 ```goodwill.py```
 - Creation of Goodwill Item: ```getAllGoodWillItems()``` when the user navigates to the home screen
+- Categorization of Goodwill item ```parseKeyWords()``` in ```goodwill_helper_functions.py```
+  - TL;DR categorizes item based on the item name and predefined list of words of commonly used words in listings determined by me
 - Insertion of Goodwill item into tree after it gets scrapped line 95 goodwill.py
 - ```goodwill_tree_helper_functions.py```
   - ```insertItem()``` - recursively goes through the tree and inserts the item
